@@ -1,4 +1,4 @@
-@media (max-width: 991.98px) {
+@media (max-width: 991px) {
     .header-text {
         font-size: 1em;
     }
@@ -31,5 +31,11 @@
 @media (max-width: 585px) {
     .header-text {
         font-size: 0.8em;
+    }
+}
+
+@media print {
+    .main-foto {
+        display: none;
     }
 }
