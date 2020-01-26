@@ -35,6 +35,11 @@
 }
 
 @media print {
+    #print-text {
+        font-family: sans-serif;
+        font-size: 16px;
+    }
+
     .main-foto {
         display: none;
     }
