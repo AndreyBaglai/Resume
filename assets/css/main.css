@@ -1,100 +1,105 @@
 .content {
-    box-shadow: 0 15px 30px #1d1e1f, 0 10px 10px #1d1e1f;
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 16px;
+  box-shadow: 0 15px 30px #1d1e1f, 0 10px 10px #1d1e1f;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
 }
 
 .main-foto {
-    display: block;
-    margin: 0 auto;
-    width: 200px;
-    transition: all .5s ease;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  transition: all 0.5s ease;
 }
 
 .main-foto:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .header-line {
-    background-color: #cdcdcd;
-    height: 2px;
-    width: 120px;
-    margin: 14px auto;    
+  background-color: #cdcdcd;
+  height: 2px;
+  width: 120px;
+  margin: 14px auto;
 }
 
 .text-wrap {
-    margin: 0 auto 10px;
+  margin: 0 auto 10px;
 }
 
 .left-side {
-    text-align: right;
+  text-align: right;
+}
+
+.content-category {
+  padding: 1rem;
+  margin-bottom: 20px;
 }
 
 .content-item {
-    padding: 10px;   
+  padding: 10px;
 }
 
 .header-text {
-    display: block; 
-    text-align: center;
-    font-style: italic;
-    font-weight: 200;
-    font-size: 1.3em;
-    line-height: 1.6em;
-    color: #565656;
+  display: block;
+  text-align: center;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 1.3em;
+  line-height: 1.6em;
+  color: #565656;
 }
 
 .caption-item {
-    font-size: 2.6rem;
-    font-weight: 400;
-    margin-top: 10px;
+  font-size: 2.6rem;
+  font-weight: 400;
+  margin-top: 10px;
 }
 
 .contacts {
-    list-style-type: none;
-    font-size: 16px;
+  list-style-type: none;
+  font-size: 16px;
 }
 
 .contacts > li {
-    margin-bottom: 6px;
+  margin-bottom: 6px;
 }
 
 .contact-link {
-    color: #00b789;
+  color: #00b789;
 }
 
 .contact-link:hover {
-    color: #00825d;
+  color: #00825d;
 }
 
 .wrap-fa {
-    margin-left: 10px;
-    font-size: 16px;
-    text-align: center;
-    color: #848383;
+  margin-left: 10px;
+  font-size: 16px;
+  text-align: center;
+  color: #848383;
 }
 
 .content-project {
-    margin-bottom: 26px;
-    padding-right: 10px;
-    border-right: #848383 solid 2px;
-    transition: all .5s ease;
+  margin-bottom: 26px;
+  padding-right: 10px;
+  border-right: #848383 solid 2px;
+  transition: all 0.5s ease;
 }
 
 .content-project:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .link-project {
-    font-size: 22px;
-    text-decoration: underline;
-    color: #00b789;
+  font-size: 22px;
+  text-decoration: underline;
+  color: #00b789;
 }
 
 .description-project + .link-project {
-    margin-right: 10px;
-} 
+  margin-right: 10px;
+}
 
 .link-project:hover {
-    color: #00825d;
+  color: #00825d;
 }
