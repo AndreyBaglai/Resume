@@ -65,17 +65,17 @@
 }
 
 .wrap-github {
-  display: flex;
-  justify-content: flex-end;
+  display: flex !important;
+  justify-content: flex-end !important;
 }
 
 .github-icon {
-  width: 15px;
-  height: 15px;
-  fill: #848383;
-  position: relative;
-  left: 2px;
-  top: 2px;
+  width: 15px !important;
+  height: 15px !important;
+  fill: #848383 !important;
+  position: relative !important;
+  left: 2px !important;
+  top: 2px !important;
 }
 
 .contact-link {

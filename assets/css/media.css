@@ -12,11 +12,11 @@
   }
 
   .wrap-github {
-    justify-content: flex-start;
+    justify-content: flex-start !important;
   }
 
   .github-icon {
-    left: -2px;
+    left: -2px !important;
   }
 
   .wrap-fa {
