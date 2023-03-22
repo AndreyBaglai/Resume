@@ -1,6 +1,6 @@
 .content {
   box-shadow: 0 15px 30px #1d1e1f, 0 10px 10px #1d1e1f;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-size: 16px;
 }
 
@@ -62,6 +62,20 @@
 
 .contacts > li {
   margin-bottom: 6px;
+}
+
+.wrap-github {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.github-icon {
+  width: 15px;
+  height: 15px;
+  fill: #848383;
+  position: relative;
+  left: 2px;
+  top: 2px;
 }
 
 .contact-link {
